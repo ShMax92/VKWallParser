@@ -82,6 +82,7 @@ class SearchAndResultViewController: UIViewController{
 
 //MARK: - TableView DataSourse & Delegate
 extension SearchAndResultViewController: UITableViewDelegate, UITableViewDataSource{
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return WP.wallObjects.count
     }
